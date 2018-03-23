@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <title></title>
+</head>
+<body>
+  <div id="main" class="content">
+    <h1 id="title" class="title">L^FT</h1>
+    <h3 id="subtext" class="subtext">Upload your photos here to put them on the stream</h3>
+
+    <form enctype="multipart/form-data" action="/upload" method="post">
+        <label for="choose-file" class="formButton">
+          Choose Image
+        </label>
+        <input id="choose-file" type="file" name="uploadfile" />
+        <input type="submit" class="formButton" value="Upload">
+    </form>
+  </div>
+</body>
+</html>

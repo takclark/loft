@@ -1,0 +1,44 @@
+body {
+  background-color: #232323;
+}
+
+.content {
+  max-width: 960px;
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+  color: #c3c3c3;
+  font-family: "Veranda", Veranda, sans-serif;
+}
+
+.title {
+  margin: auto;
+}
+
+.subtext {
+  margin: auto;
+}
+
+.formButton {
+	border-top:		2px solid #181818;
+	border-left:		2px solid #181818;
+	border-right:		2px solid #131313;
+	border-bottom:		2px solid #131313;
+	padding:		10px 20px;
+	font-size:		0.875em;
+	background-color:	#162a5b;
+	font-weight:		bold;
+	color:			#c3c3c3;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+h1 {
+  font-size: 8em;
+}
+
+h3 {
+  font-size: 3em;
+}
